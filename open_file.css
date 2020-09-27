@@ -1,0 +1,58 @@
+.amsk {
+	border:0px solid;
+    border-radius:2px;
+	background-color: #0D5995;
+	overflow: hidden;
+}
+.imgs {
+	position:relative;
+	text-align: center;
+}
+.imgs img {
+	position:absolute;
+	top:0;
+	left:0;
+	right:0;
+	bottom:0;
+	vertical-align:middle;
+    margin:auto;
+}
+.amsk_buttons {
+	border:0px solid;
+    border-radius:4px;
+	background-color: #779ACE;
+	height:32px;
+	text-align:center;
+	padding-top: 3px;
+	position:relative; 
+	z-index: 9999;
+	width: 100%;
+	opacity:0.90;
+    filter:alpha(opacity=90); /* 针对 IE8 以及更早的版本 */
+}
+.button_img {
+	width: 30px;
+	height:30px;
+	border:0px solid #FFF!important;
+	margin-left: 30px;
+}
+.button {
+	height:30px;
+	line-height: 30px;
+	border:0px solid #FFF!important;
+	text-align:left;
+	font-weight:bold;
+	color:#FFF;
+	border-radius: 3px;
+	position: relative;
+	overflow: hidden;
+	margin-left: 30px;
+	margin-right: 10px;
+}
+.button span {
+	position: absolute;
+	text-align:left;
+	margin-left:1px;
+	width:100px!important;
+	line-height: 30px;
+}
